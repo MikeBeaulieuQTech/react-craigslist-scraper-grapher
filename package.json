@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "webpack -w",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +23,8 @@
     "react-chartjs-2": "^2.1.0",
     "react-dom": "^15.4.1",
     "react-router": "^3.0.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -30,5 +33,6 @@
     "babel-preset-react": "^6.16.0",
     "webpack": "^1.14.0",
     "webpack-bundle-analyzer": "^2.8.2"
-  }
+  },
+  "snyk": true
 }
