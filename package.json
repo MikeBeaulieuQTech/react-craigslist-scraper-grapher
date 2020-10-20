@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "chart.js": "^2.6.0",
+    "chart.js": "^2.9.4",
     "cheerio": "^1.0.0-rc.1",
     "express": "^4.14.0",
     "moment": "^2.18.1",
